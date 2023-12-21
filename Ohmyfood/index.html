@@ -1,147 +1,161 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-    <head>
 
-        <meta charset="UTF-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Précommande de menus en ligne pour l'optimisation du temps d'attente dans un restaurant !">
+<head>
 
-        <title>Ohmyfood</title>
+    <meta charset="UTF-8">
 
-        <link rel="stylesheet" href="styles/style.css"> <!--ligne temporaire-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Précommande de menus en ligne pour l'optimisation du temps d'attente dans un restaurant !">
 
-    
-    </head>
+    <title>Ohmyfood</title>
 
-    <body>
+    <link rel="stylesheet" href="styles/style.css"> <!--ligne temporaire-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
-        <!-- Header -->
 
-        <header ><!--insertion fleche retour, voir si logo ou h1 préférable? (h1 et h2 résérvés logo et titre)-->
-            <img src="images/logo/ohmyfood.png" alt="Logo Ohmyfood">
-        </header>
 
-        <!-- fin Header -->
+</head>
 
-        <!-- Main -->
+<body class="marge-auto-body">
 
-        <main>
-            <!--situation a rajouter icone situation google-->
+    <!-- Header -->
+
+    <header class="centrage M20">
+        <!--insertion fleche retour, voir si logo ou h1 préférable? (h1 et h2 résérvés logo et titre)-->
+        <img class="logo-image" src="images/logo/ohmyfood.png" alt="Logo Ohmyfood">
+    </header>
+
+    <!-- fin Header -->
+
+    <!-- Main -->
+
+    <main>
+        <!--situation a rajouter icone situation google-->
+        <div class="situ-menu">
+            <i class="fa-solid fa-location-dot margefa"></i><!--rajouter image avec css ou scss-fa solid-->
+            <p>Paris, Belleville</p>
+
+        </div>
+
+        <!-- menu exploration-->
+        <section class="aligne-centre bloc-explore">
+            <h3>Réservez le menu qui vous convient</h3>
+            <p class="message-pub">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
             <div>
-                <p>Paris, Belleville</p>
-                <i> <!--rajouter image avec css ou scss-fa solid-->  </i> 
+                <button class="bouton-explore">Explorer nos restaurants</button>
             </div>
 
-            <!-- menu exploration-->
-            <section>
-                <h3>Réservez le menu qui vous convient</h3>
-                <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-                <a>Explorer nos restaurants</a>                
-            </section>
-            <!---->
-            <section>
-                <h3>Fonctionnement</h3>
-                <div>
-                    <p>Choisissez un restaurant</p>
-                    <div>1</div>
-                </div>
-                <div>
-                    <p>Composez votre menu</p>
-                    <div>2</div>
-                </div>
-                <div>
-                    <p>Dégustez au restaurant</p>
-                    <div>3</div>
-                </div>
-            </section>
+        </section>
+        <!---->
+        <section class="marge-peri20">
+            <h3>Fonctionnement</h3>
+            <div>
+                <p>Choisissez un restaurant</p>
+                <div>1</div>
+            </div>
+            <div>
+                <p>Composez votre menu</p>
+                <div>2</div>
+            </div>
+            <div>
+                <p>Dégustez au restaurant</p>
+                <div>3</div>
+            </div>
+        </section>
 
-            <section class="img">
+        <section class="carte-back-color">
+
+            <!-- badges des restaurants-->
 
 
-                <h3>Restaurants</h3>
+            <h3>Restaurants</h3>
 
 
-                <div>
+            <div class="carte-placement">
 
 
-                    <a class="img" href="pages/LaPaletteDuGout.html">
-                        <article>
-                            <img src="images/restaurants/lapalettedugout.jpg" alt="Tranches de saumon grillées, sous roquette et feuilleté doré">
-                        </article>
-                        <div>
-                            <h3>La palette du goût<span> <!-- rajouter 1.2.3 avec class pour numero devant --> </span></h3>
-                            <p>Ménilmontant</p>
-                        </div>
-                    </a>
+                <a class="carte-contenu" href="pages/LaPaletteDuGout.html">
+                    <article>
+                        <img class="img" src="images/restaurants/lapalettedugout.jpg"
+                            alt="Tranches de saumon grillées, sous roquette et feuilleté doré">
+                    </article>
+                    <div class="carte-article">
+                        <h3>La palette du goût<span> <!-- rajouter 1.2.3 avec class pour numero devant --> </span></h3>
+                        <p>Ménilmontant</p>
+                    </div>
+                </a>
 
 
-                    <a class="" href="pages/LaNoteEnchantee.html">
-                        <article>
-                            <img src="images/restaurants/lanoteenchantee.jpg" alt="plusieurs assietes avec tomates/mozzarella, un plat en sauce tres appettissant, du pain, des flutes et divers boissons">
-                        </article>
-                        <div>
-                            <h3>La note enchantée<span><!-- rajouter 1.2.3 avec class pour numero devant --></span></h3>
-                            <p>Charonne</p>
-                        </div>
-                    </a>
+                <a class="carte-contenu" href="pages/LaNoteEnchantee.html">
+                    <article>
+                        <img class="img" src="images/restaurants/lanoteenchantee.jpg"
+                            alt="plusieurs assietes avec tomates/mozzarella, un plat en sauce tres appettissant, du pain, des flutes et divers boissons">
+                    </article>
+                    <div class="carte-article">
+                        <h3>La note enchantée<span><!-- rajouter 1.2.3 avec class pour numero devant --></span></h3>
+                        <p>Charonne</p>
+                    </div>
+                </a>
 
 
-                    <a class="" href="pages/ALaFrancaise.html">
-                        <article>
-                            <img src="images/restaurants/alafrancaise.jpg" alt="Oeufs mollets sur lit d'epinard frais et feuilleté">
-                        </article>
-                        <div>
-                            <h3>À la française<span><!-- rajouter 1.2.3 avec class pour numero devant --></span></h3>
-                            <p>Cité Rouge</p>
-                        </div>
-                    </a>
+                <a class="carte-contenu" href="pages/ALaFrancaise.html">
+                    <article>
+                        <img class="img" src="images/restaurants/alafrancaise.jpg"
+                            alt="Oeufs mollets sur lit d'epinard frais et feuilleté">
+                    </article>
+                    <div class="carte-article">
+                        <h3>À la française<span><!-- rajouter 1.2.3 avec class pour numero devant --></span></h3>
+                        <p>Cité Rouge</p>
+                    </div>
+                </a>
 
 
-                    <a href="pages/LeDeliceDesSens.html">
-                        <article>
-                            <img src="images/restaurants/ledelicedessens.jpg" alt="ecumeux de poisson doré sur son lit de legumes frais sauté au saké">
-                        </article>
-                        <div>
-                            <h3>Le délice des sens<span></span></h3>
-                            <p>Folie-Méricourt</p>
-                            
-                        </div>
-                    </a>
+                <a class="carte-contenu" href="pages/LeDeliceDesSens.html">
+                    <article>
+                        <img class="img" src="images/restaurants/ledelicedessens.jpg"
+                            alt="ecumeux de poisson doré sur son lit de legumes frais sauté au saké">
+                    </article>
+                    <div class="carte-article">
+                        <h3>Le délice des sens<span></span></h3>
+                        <p>Folie-Méricourt</p>
+
+                    </div>
+                </a>
 
 
-                </div>
-            </section>
-        </main>
+            </div>
+        </section>
+    </main>
 
-        <!-- fin Main -->
+    <!-- fin Main -->
 
-        <!-- Footer -->
+    <!-- Footer -->
 
-        <footer>
-            <img src="images/logo/ohmyfood.png" alt="Logo Ohmyfood">
-            <ul>
-                <li>
-                    <a href="#">Proposer un restaurant</a> <!--logo couverts à ajouter-->
-                </li>
-                <li>
-                    <a href="#">Devenir partenaire</a> <!--logo poignee de main à ajouter-->
-                </li>
-                <li>
-                    <a href="#">Mentions légales</a>
-                </li>
-                <li>
-                    <a href="mailto:adresse@serveur.com">Contact</a>
-                </li>
-            </ul>
-        </footer>
-        
-    </body>
+    <footer class="footer-mf1">
+        <a>ohmyfood</a>
+        <ul class="footer-liste footer-mf">
+            <li>
+                <a href="#">Proposer un restaurant</a> <!--logo couverts à ajouter-->
+            </li>
+            <li>
+                <a href="#">Devenir partenaire</a> <!--logo poignee de main à ajouter-->
+            </li>
+            <li>
+                <a href="#">Mentions légales</a>
+            </li>
+            <li>
+                <a href="mailto:adresse@serveur.com">Contact</a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
 </html>
