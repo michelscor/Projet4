@@ -2,12 +2,135 @@
 * {
     font-family: Roboto;
 }
-img {
-    width: 300px;
+
+.marge-auto-body {
+    margin: 0px;
 }
 
 h2 {
     font-family: Shrikhand;
+}
+
+h4 {
+    font-weight: lighter;
+}
+
+p {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.logo {
+    width: 100%;
+}
+
+.M20 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .421);
+    margin-bottom: 3px;
+}
+
+.marge-peri20 {
+    margin: 20px;
+}
+
+
+.logo-image {
+    width: 160px;
+}
+
+.centrage {
+    display: grid;
+    justify-items: center;
+}
+
+.margefa {
+    padding-right: 15px;
+}
+
+.aligne-centre {
+    text-align: center;
+}
+
+.message-pub {
+    font-weight: lighter;
+}
+
+.bouton-explore {
+    background: linear-gradient(#9356DC, #eca6db);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .421);
+}
+
+.bloc-explore {
+    padding-bottom: 50px;
+    padding-top: 30px;
+    background-color: #6662591a;
+}
+
+/** cartes du menu general **/
+.situ-menu {
+    background-color: #c0c0c070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.carte-image {
+    width: 100%;
+    height: 100%;
+    height: 136px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.carte-placement {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.carte-back-color {
+    background-color: #6662591a;
+    padding: 20px;
+}
+
+.carte-contenu {
+    background-color: white;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px 0;
+    color: #000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .421);
+}
+
+.carte-article {
+    padding-left: 15px;
+    text-decoration: none;
 }
 
 /** couleurs site
@@ -22,6 +145,19 @@ h2 {
             Shrikhand - titrage
 **/
 
+.footer-liste {
+    list-style-type: none;
+}
 
+.footer-mf1 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.footer-mf {
+    padding: initial;
+
+}
 
 /**section temporaire**/
